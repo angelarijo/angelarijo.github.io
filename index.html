@@ -4,74 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angela Rijo - Research Assistant</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            text-align: center;
-            background-color: #007BFF;
-            padding: 20px;
-            color: #fff;
-        }
-
-        h1, h2, h3 {
-            color: #007BFF;
-        }
-
-        h2 {
-            border-bottom: 2px solid #007BFF;
-            padding-bottom: 5px;
-        }
-
-        section {
-            background-color: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        p {
-            margin-bottom: 10px;
-        }
-
-        a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <h1>Angela Rijo - Research Assistant</h1>
+        <div class="container">
+            <h1>Angela Rijo - Research Assistant</h1>
+        </div>
     </header>
 
-    <section>
-        <h2>Contact Information</h2>
-        <p>Address: Lisbon</p>
-        <p>Phone: +351 912677246</p>
-        <p>E-mail: <a href="mailto:angelarijo@lip.pt">angelarijo@lip.pt</a></p>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Information</h2>
+            <p>Address: Lisbon</p>
+            <p>Phone: +351 912677246</p>
+            <p>E-mail: <a href="mailto:angelarijo@lip.pt">angelarijo@lip.pt</a></p>
+        </div>
     </section>
 
-    <section>
-        <h2>Work History</h2>
-        <p><strong>Research Assistant</strong></p>
-        <p><em>LIP, Laboratory of Instrumentation and Experimental Particle Physics, Lisbon</em></p>
-        <p>Aug 2021 - Oct 2023</p>
-        <p>Research assistant at the Social Physics and Complexity Lab. Work within the framework of the project funded by the European Research Council "FARE – Fake news and real people" (n. 853566).</p>
+    <section id="work-history">
+        <div class="container">
+            <h2>Work History</h2>
+            <div class="job">
+                <h3>Research Assistant</h3>
+                <p>LIP, Laboratory of Instrumentation and Experimental Particle Physics, Lisbon</p>
+                <p>Aug 2021 - Oct 2023</p>
+                <p>Research assistant at the Social Physics and Complexity Lab. Work within the framework of the project funded by the European Research Council "FARE – Fake news and real people" (n. 853566).</p>
+            </div>
+            
+            <!-- Add other work history entries as needed -->
+
+        </div>
     </section>
 
-    <!-- Add sections for Education, Publications, Outreach, Skills, Selected Courses, etc. -->
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="degree">
+                <h3>PhD Psychology</h3>
+                <p>Nov 2023 - Nov 2027</p>
+                <p>Project funded by FCT Fundação para a Ciência e Tecnologia BD.00381.2023, entitled "The social bayesian brain: The roles of social identity complexity and informational environment complexity in belief-updating". Hosting institutions: Iscte-IUL and University of Amsterdam</p>
+            </div>
+
+            <!-- Add other education entries as needed -->
+
+        </div>
+    </section>
+
+    <!-- Add sections for Publications, Outreach, Skills, Selected Courses, etc. -->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Angela Rijo - Research Assistant</p>
+        </div>
+    </footer>
 
 </body>
 </html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #007BFF;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
