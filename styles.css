@@ -47,7 +47,5 @@ a:hover {
 }
 
 #contact {
-    border: 2px solid #fff; /* White border around the contact section */
-    padding: 8px; /* Padding inside the contact section */
-    color: #fff; /* White text color for the contact section */
+    background-color: #282828;
 }
