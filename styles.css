@@ -1,8 +1,13 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
+    background-color: #333; /* Dark grey background */
+    color: #fff; /* White text color */
+}
+
+header {
+    background-color: #222; /* Slightly darker grey header */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
 }
 
 .container {
@@ -10,46 +15,28 @@ body {
     margin: 0 auto;
 }
 
-header {
-    background-color: #007BFF;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
 section {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
 }
 
 h2 {
-    color: #007BFF;
+    color: #ddd; /* Light grey heading color */
+}
+
+h3 {
+    color: #ddd; /* Light grey subheading color */
+}
+
+p {
+    color: #ccc; /* Light grey text color */
 }
 
 a {
-    color: #007BFF;
-    text-decoration: none;
+    color: #fff; /* White link color */
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #bbb; /* Light grey link color on hover */
 }
 
-#publications a {
-    color: #4CAF50;
-}
-
-#outreach p {
-    font-style: italic;
-}
-
-#skills p {
-    margin: 5px 0;
-}
-
-#courses a {
-    color: #FF5722;
-}
+/* Add more styles as needed */
