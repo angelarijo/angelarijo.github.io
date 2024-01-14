@@ -1,4 +1,3 @@
-
 body {
     background-color: #1e1e1e;
     color: #ccc;
@@ -13,6 +12,26 @@ header {
     font-size: 24px;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #207b99;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -24,49 +43,29 @@ section {
     border-radius: 8px;
 }
 
-.dark-section {
-    background-color: #333;
-}
-
-.light-section {
-    background-color: #444;
-}
-
-h1, h2, h3 {
-    color: #3498db;
-}
-
-a {
-    color: #3498db;
-}
-
-a:hover {
-    color: #207b99;
-}
-
 #Resume {
-    background-color: #333; /* Add or adjust the background color */
+    background-color: #333;
 }
 
 #Resume .resume-content {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Align to the right */
+    justify-content: space-between;
 }
 
 .text-content {
-    flex: 1; /* Take remaining space */
+    flex: 1;
 }
 
 .profile-photo {
-    max-width: 200px; /* Adjust the size as needed */
+    max-width: 200px;
     height: auto;
-    margin-left: 20px; /* Adjust the spacing between the text and the photo */
+    margin-left: 20px;
     border-radius: 50%;
 }
 
 #contact {
-    background-color: #282828; /* Darker grey background for contact section */
+    background-color: #282828;
     padding: 20px;
 }
 
