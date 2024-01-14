@@ -1,0 +1,42 @@
+body {
+    background-color: #1e1e1e;
+    color: #ccc;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #333; /* Dark background color for CV sections */
+}
+
+h2 {
+    color: #3498db; /* Blue heading color */
+}
+
+.degree, .job, .container p {
+    color: #ccc; /* Light text color for content */
+}
+
+a {
+    color: #3498db; /* Blue link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #207b99; /* Darker blue on hover */
+}
+
+#courses a {
+    color: #3498db;
+}
+
+#courses a:hover {
+    color: #207b99;
+}
