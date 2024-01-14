@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #3498db; /* Blue shade for the header */
-    color: #fff;
+    background-color: #444; /* Blue shade for the header */
+    color: #3498db;
     padding: 20px;
     text-align: center;
     font-size: 24px;
