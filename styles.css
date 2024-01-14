@@ -1,11 +1,11 @@
 body {
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #1e1e1e;
+    color: #ccc;
     font-family: 'Arial', sans-serif;
 }
 
 header {
-    background-color: #3498db;
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -18,17 +18,20 @@ header {
 
 section {
     margin: 20px 0;
-    background-color: #ecf0f1;
     padding: 20px;
     border-radius: 8px;
 }
 
-h1, h2, h3 {
-    color: #3498db;
+.dark-section {
+    background-color: #333;
 }
 
-p {
-    color: #333;
+.light-section {
+    background-color: #444;
+}
+
+h1, h2, h3 {
+    color: #3498db;
 }
 
 a {
@@ -40,9 +43,5 @@ a:hover {
 }
 
 #contact {
-    background-color: #d4e6f1;
-}
-
-#Resume {
-    background-color: #aed6f1;
+    background-color: #555;
 }
