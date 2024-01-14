@@ -43,20 +43,18 @@ a:hover {
     color: #207b99;
 }
 
+#Resume {
+    background-color: #333; /* Add or adjust the background color */
+}
+
 #Resume .resume-content {
     display: flex;
-    align-items: right;
-    background-color: #333;
+    align-items: center;
 }
 
 .profile-photo {
     max-width: 100px; /* Adjust the size as needed */
     height: auto;
-    margin-right: 40px; /* Adjust the spacing between the text and the photo */
+    margin-right: 20px; /* Adjust the spacing between the text and the photo */
     border-radius: 50%;
-}
-
-#contact {
-    background-color: #282828;
-    color: #fff;
 }
