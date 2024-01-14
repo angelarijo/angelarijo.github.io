@@ -59,3 +59,12 @@ a:hover {
     margin-left: 20px; /* Adjust the spacing between the text and the photo */
     border-radius: 50%;
 }
+
+#contact {
+    background-color: #444; /* Darker grey background for contact section */
+    padding: 20px;
+}
+
+#contact h2 {
+    color: #ddd;
+}
