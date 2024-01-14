@@ -1,11 +1,12 @@
 body {
-    background-color: #333; /* Dark grey background */
-    color: #fff; /* White text color */
+    background-color: #333;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
 }
 
 header {
-    background-color: #222; /* Slightly darker grey header */
-    color: #fff; /* White text color */
+    background-color: #222;
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
@@ -19,24 +20,36 @@ section {
     margin: 20px 0;
 }
 
-h2 {
-    color: #ddd; /* Light grey heading color */
-}
-
-h3 {
-    color: #ddd; /* Light grey subheading color */
+h1, h2, h3 {
+    color: #ddd;
 }
 
 p {
-    color: #ccc; /* Light grey text color */
+    color: #ccc;
 }
 
 a {
-    color: #fff; /* White link color */
+    color: #fff;
 }
 
 a:hover {
-    color: #bbb; /* Light grey link color on hover */
+    color: #bbb;
 }
 
-/* Add more styles as needed */
+#contact {
+    background-color: #444; /* Darker grey background for contact section */
+    padding: 20px;
+}
+
+#contact h2 {
+    color: #ddd;
+}
+
+#Resume {
+    background-color: #555; /* Another shade of grey for the resume section */
+    padding: 20px;
+}
+
+#Resume p {
+    color: #ccc;
+}
