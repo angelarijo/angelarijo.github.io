@@ -1,0 +1,5 @@
+/your-website-root
+├── other-files-and-folders
+└── cv
+    ├── index.html
+    └── styles.css
