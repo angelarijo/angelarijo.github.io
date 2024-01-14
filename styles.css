@@ -45,3 +45,10 @@ a:hover {
 #Resume {
     background-color: #333;
 }
+
+#contact {
+    border: 2px solid #fff; /* White border around the contact section */
+    padding: 20px; /* Padding inside the contact section */
+    background-color: #3498db; /* Blue background color for the contact section */
+    color: #fff; /* White text color for the contact section */
+}
