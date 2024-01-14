@@ -49,13 +49,13 @@ a:hover {
 
 #Resume .resume-content {
     display: flex;
-    align-items: left;
+    align-items: center;
+    justify-content: flex-end; /* Align to the right */
 }
 
 .profile-photo {
-    align-items: right;
     max-width: 200px; /* Adjust the size as needed */
     height: auto;
-    margin-right: 20px; /* Adjust the spacing between the text and the photo */
+    margin-left: 20px; /* Adjust the spacing between the text and the photo */
     border-radius: 50%;
 }
