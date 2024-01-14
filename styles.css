@@ -45,12 +45,12 @@ a:hover {
 
 #Resume .resume-content {
     display: flex;
-    align-items: center;
+    align-items: right;
     background-color: #333;
 }
 
 .profile-photo {
-    max-width: 30px; /* Adjust the size as needed */
+    max-width: 100px; /* Adjust the size as needed */
     height: auto;
     margin-right: 40px; /* Adjust the spacing between the text and the photo */
     border-radius: 50%;
