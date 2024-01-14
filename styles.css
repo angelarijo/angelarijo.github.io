@@ -50,7 +50,11 @@ a:hover {
 #Resume .resume-content {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Align to the right */
+    justify-content: space-between; /* Align to the right */
+}
+
+.text-content {
+    flex: 1; /* Take remaining space */
 }
 
 .profile-photo {
@@ -68,3 +72,4 @@ a:hover {
 #contact h2 {
     color: #ddd;
 }
+
