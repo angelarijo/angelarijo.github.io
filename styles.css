@@ -77,10 +77,13 @@ section {
     max-width: 200px; 
 
     /* Center the photo within the container */
-    margin: 0 auto; 
+    margin: right; 
 
     /* Add some spacing around the photo */
     padding: 10px; 
+
+    /*places photo to right*/
+    float: right;
 }
 
 .profile-photo img {
